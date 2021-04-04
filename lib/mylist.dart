@@ -34,7 +34,8 @@ class _MyListPageState extends State<MyListPage> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('All Products'),
+          title: Text('All Cake'),
+          backgroundColor: Colors.brown,
         ),
         body: Column(
           //  children: myProducts.map((prd) => Text(prd)).toList()
